@@ -1,0 +1,221 @@
+@media (max-width: 991.98px) {
+    .americano {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .cup {
+        width: 40%;
+    }
+
+    .order {
+        margin-bottom: 30px;
+    }
+
+    .footimg {
+        margin: 60px 0px 60px 40px;
+    }
+
+    .footerimage {
+        width: 25%;
+    }
+
+    .linetext {
+        gap: 25px;
+    }
+
+    .straight {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .visit,
+    .gravida {
+        font-size: 25px;
+    }
+
+    .gravida {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .box {
+        left: 140px !important;
+        top: 295px !important;
+    }
+
+    .col-33 {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+}
+
+
+
+
+
+@media (max-width: 767.98px) {
+    .cup {
+        width: 50%;
+    }
+
+    .get {
+        left: 42.5%;
+    }
+
+    .nyc {
+        width: 50%;
+    }
+
+    .listcard {
+        display: block;
+        margin: 50px 50px 0px 50px;
+    }
+
+    .list1 {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        margin-bottom: 40px;
+    }
+
+    .americano {
+        padding-top: 50px;
+        font-size: 35px;
+    }
+
+    .integer,
+    .non {
+        padding-right: 30px;
+    }
+
+    .pos {
+        height: 100%;
+    }
+
+    .fill {
+        width: 90%;
+    }
+
+    .linetext {
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+
+    .box {
+        left: 83px !important;
+        top: 205px !important;
+    }
+
+    .visit,
+    .gravida {
+        font-size: 15px;
+    }
+}
+
+
+
+/* @media (max-width: 575.98px) {
+
+    .duis {
+        margin: 25px 100px 0px 100px;
+    }
+    .coffe{
+        font-size: 50px;
+    }
+    .dark{
+        height: 480.5px;
+    }
+
+    .get {
+        left: 233px;
+        top: 340px;
+    }
+
+    .gift{
+        font-size: 15px;
+    }
+    .big{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .pic{
+        padding-left: 30px;
+        width: 70%;
+        height: 50%;
+    }
+    .logo{
+        width: 70%;
+    }
+    .best{
+        gap: 40px;
+    }
+
+    .brand{
+        font-size: 35px;
+        margin-top: 30px;
+    }
+
+    .non{
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    .sit{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .col-33{
+        width: 90%;
+    }
+    .americano{
+        margin-top: 0px;
+    }
+
+    .box{
+        left: 115px !important;
+        top: 250px !important;
+    }
+
+    .company{
+        gap: 40px;
+    }
+    .compro{
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    .dictum{
+        font-size: 14.8px;
+    }
+
+    .mapmess{
+        flex-direction: column;
+        gap: 0px;
+    }
+    .map{
+        width: 80%;
+        margin: 50px auto;
+    }
+
+    .contact{
+        text-align: center;
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .fill{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .send{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .mess{
+        text-align: center;
+    }
+} */

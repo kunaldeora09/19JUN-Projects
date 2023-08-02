@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #b13941;
+    position: relative;
+}
+
+.live {
+    position: absolute;
+    width: 100%;
+    opacity: 0.3;
+}
+
+.show {
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.click {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.click:hover {
+    color: deepskyblue;
+}
+
+.container {
+    background-image: url(ImagePro03-CSS/image02-pro03CSS.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 5;
+}
+
+.dark {
+    width: 100%;
+    height: 551px;
+    background-color: black;
+    opacity: 0.502;
+    position: absolute;
+}
+
+.coffe {
+    text-align: center;
+    font-size: 90px;
+    color: #feedda;
+    letter-spacing: 1px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.duis {
+    color: #fefefe;
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 100px;
+}
+
+.get {
+    color: #feedda;
+    background-color: #b13941;
+    padding: 10px 20px;
+    top: 395px;
+    position: absolute;
+    left: 45.5%;
+    border: none;
+    cursor: pointer;
+    transition: 0.7s;
+    border-radius: 5px;
+}
+
+.get:hover {
+    background-color: chocolate;
+    color: white;
+    transition: 0.7s;
+    box-shadow: 2px 2px 10px black;
+}
+
+.sift {
+    padding-bottom: 100px;
+}
+
+.freecup {
+    background-color: #b13941;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    z-index: 6;
+}
+
+.pic {
+    width: 60%;
+    height: 60%;
+    margin-top: 60px;
+}
+
+.con {
+    color: #feedda;
+    z-index: 8;
+}
+
+.gift {
+    margin: 85px 0px 0px 0px;
+    font-size: 25px;
+}
+
+.big {
+    font-size: 60px;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.claim {
+    background-color: #feedda;
+    color: #b13941;
+    padding: 10px;
+    font-weight: 600;
+    font-family: serif;
+    border: none;
+    margin-top: 20px;
+    transition: 0.7s;
+    cursor: pointer;
+    margin-bottom: 85px;
+    border-radius: 5px;
+}
+
+.claim:hover {
+    box-shadow: 2px 2px 10px black;
+    transition: 0.7s;
+    background-color: deepskyblue;
+    color: white;
+}
+
+.hard {
+    position: absolute;
+    left: 0;
+    top: -100px;
+    width: 100%;
+    opacity: 0.3;
+}
+
+.best {
+    display: flex;
+    background-color: #feedda;
+    gap: 60px;
+    position: relative;
+}
+
+.cup {
+    width: 30%;
+}
+
+.coffee {
+    width: 100%;
+    height: 100%;
+}
+
+.brand {
+    font-size: 50px;
+    margin-top: 85px;
+}
+
+.non {
+    margin-top: 50px;
+}
+
+.nyc {
+    width: 30%;
+}
+
+.red {
+    margin-top: 30px;
+    display: inline-block;
+    color: #b13941;
+    margin-bottom: 70px;
+}
+
+.menudiv {
+    background-color: #b13941;
+    position: relative;
+}
+
+.menu {
+    text-align: center;
+    color: #feedda;
+    position: relative;
+}
+
+.main {
+    font-size: 50px;
+    padding-top: 85px;
+}
+
+.sit {
+    margin-top: 20px;
+}
+
+.listcard {
+    display: flex;
+    margin: 35px 30px 0px 30px;
+    gap: 30px;
+    padding-bottom: 85px;
+}
+
+.list1 {
+    display: flex;
+    gap: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 15px black;
+    transition: 1s;
+    z-index: 15;
+}
+
+.list1:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.test {
+    width: 100%;
+    height: 100%;
+}
+
+.americano {
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.integer {
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.img1,
+.ame {
+    width: 50%;
+}
+
+.order {
+    background-color: #b13941;
+    color: #feedda;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.7s;
+}
+
+.order:hover {
+    box-shadow: 2px 2px 10px black;
+    transition: 0.7s;
+}
+
+.pos {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    opacity: 0.3;
+}
+
+.storediv {
+    background-color: #feedda;
+    position: relative;
+}
+
+.storetext {
+    color: #b13941;
+    text-align: center;
+}
+
+.straight {
+    display: flex;
+    gap: 30px;
+    margin: 70px 100px 0px 100px;
+    padding-bottom: 100px;
+}
+
+.visit {
+    background-color: #b13941;
+    color: #f8eed3;
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 50px 0px 40px 0px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.visit:hover {
+    box-shadow: 2px 2px 10px black;
+    transition: 0.7s;
+
+}
+
+.gravida {
+    padding: 30px 40px 0px 40px;
+    text-align: center;
+}
+
+.textclass {
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.pro {
+    width: 100%;
+    height: 100%;
+}
+
+.png {
+    height: 56%;
+}
+
+.col-33 {
+    box-shadow: 2px 2px 15px black;
+    transition: 1s;
+    position: relative;
+}
+
+.col-33:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+div[class=box] {
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    background-color: #f8eed3;
+    top: 250px;
+    left: 110px;
+}
+
+.dummy {
+    font-size: 20px;
+    color: #b13941;
+    font-weight: 700;
+    font-family: "PT Serif";
+    text-align: center;
+    border: 2px solid #b13941;
+    margin: 5px;
+}
+
+.company {
+    display: flex;
+    background-color: #b13941;
+    gap: 60px;
+    position: relative;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+    margin: 70px 0px 70px 40px;
+    width: 30%;
+    z-index: 19;
+    box-shadow: 2px 2px 15px black;
+}
+
+.compro {
+    color: #feedda;
+    font-size: 50px;
+    margin-top: 85px;
+}
+
+.dictum {
+    color: #feedda;
+    margin-top: 20px;
+}
+
+.fa-brands {
+    color: #feedda;
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.profile {
+    width: 50%;
+    z-index: 18;
+}
+
+.adjust {
+    position: absolute;
+    opacity: 0.3;
+    width: 100%;
+}
+
+.mapmess {
+    display: flex;
+    background-color: white;
+    gap: 50px;
+    position: relative;
+}
+
+.imagemap {
+    width: 100%;
+    height: 100%;
+}
+
+.map {
+    width: 50%;
+    height: 500px;
+}
+
+.contact {
+    color: #b13941;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.fill {
+    display: block;
+    background-color: #efefef;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+}
+
+.fill:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #b13941;
+}
+
+textarea {
+    font-family: sans-serif;
+}
+
+.send {
+    color: #feedda;
+    background-color: #b13941;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    transition: 0.7s;
+}
+
+.send:hover {
+    transition: 0.7s;
+    box-shadow: 2px 2px 10px black;
+}
+
+footer {
+    background-color: #b13941;
+    display: flex;
+    position: relative;
+}
+
+.footimg {
+    width: 50%;
+    margin: 60px 0px 60px 40px;
+}
+
+.linetext {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.your {
+    color: #feedda;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.street {
+    color: white;
+    margin-top: 30px;
+}
+
+.domain {
+    color: white;
+    margin-top: 20px;
+}
+
+.color {
+    color: #feedda;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.blog {
+    color: white;
+    padding: 1.9px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.blur {
+    margin-top: 60px;
+}
+
+.copy {
+    color: white;
+    margin-top: 10px;
+}

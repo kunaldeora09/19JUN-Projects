@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #section {
+            background-color: #f8eed3;
+            padding: 40px 0px;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .main-text {
+            padding: 10px 100px;
+            margin: 0px 40px;
+        }
+
+        h2 {
+            font-size: 50px;
+            color: #b13941;
+            font-family: "Yeseva One";
+            text-align: center;
+        }
+
+        h2+p {
+            font-size: 20px;
+            color: #b13941;
+            font-family: "PT Serif";
+            text-align: center;
+            padding: 20px 100px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 80px;
+            /* flex-wrap: wrap; */
+        }
+
+        .col-33 {
+            width: 33.33%;
+            /* width: 100%; */
+            box-shadow: 2px 2px 15px black;
+            background-color: #ffffff;
+            position: relative;
+            transition: 1s;
+        }
+
+        .col-33:hover {
+            transform: scale(1.1);
+            transition: 1s;
+
+        }
+
+        div[class*=box] {
+            width: 120px;
+            height: 40px;
+            position: absolute;
+            background-color: #f8eed3;
+
+        }
+
+        .box-1 {
+            top: 260px;
+            left: 120px;
+
+        }
+
+        h3 {
+            font-size: 20px;
+            color: #b13941;
+            font-weight: 700;
+            font-family: "PT Serif";
+            text-align: center;
+            border: 2px solid #b13941;
+            margin: 5px;
+        }
+
+        .text>p {
+            font-size: 15px;
+            color: #555555;
+            font-family: "PT Serif";
+            text-align: center;
+            padding: 10px 52px;
+            text-align: center;
+        }
+
+        button {
+            background-color: #b13941;
+            font-size: 20px;
+            color: #f8eed3;
+            font-weight: 700;
+            font-family: "EB Garamond";
+            text-align: center;
+            padding: 5px 20px;
+            margin: 10px 0px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .text {
+            padding: 30px 0px;
+        }
+
+        /* // Large devices (desktops, 992px and up) */
+
+        @media (max-width: 992px) {
+
+            .col-33 {
+                width: 33.33%;
+            }
+
+        }
+
+
+        /* // Medium devices (tablets, 768px and up) */
+
+        @media (max-width: 768px) {
+
+            .col-33 {
+                width: 50%;
+            }
+
+        }
+
+        /* // Small devices (landscape phones, 576px and up) */
+        @media (max-width: 576px) {
+            h2 {
+                font-size: 40px;
+                text-align: center;
+            }
+
+            h2+p {
+                font-size: 20px;
+                text-align: center;
+                padding: 10px 0px 30px;
+                margin: 0px;
+
+            }
+
+            .main-text {
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .col-33 {
+                width: 100%;
+            }
+
+            .row {
+                flex-direction: column;
+            }
+
+            .box-1 {
+                top: 250px;
+                left: 120px;
+                position: fixed;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section id="section">
+        <div class="section-wrapper">
+            <div class="container">
+                <div class="main-text">
+                    <h2>Store</h2>
+                    <p>
+                        Neque laoreet suspendisse interdum consectetur libero id faucibus
+                        nisl tincidunt. Dictum fusce ut placerat orci nulla pellentesque
+                        dignissim enim sit.
+                    </p>
+                </div>
+                <div class="row">
+
+                    <!-- card-1 start -->
+
+
+                    <div class="col-33">
+                        <div class="box-1">
+                            <h3>Vesttibulun</h3>
+                        </div>
+                        <div class="image">
+                            <img src="ImagePro03-CSS/image08-pro03CSS.png" alt="image" />
+                        </div>
+                        <div class="text">
+                            <p>
+                                A lacus vestibulum sed. Amet purus gravida quis blandit
+                                turpis. Enim facilisis gravida neque convallis.
+                            </p>
+                            <button>Visit Now</button>
+                        </div>
+                    </div>
+
+
+                    <!-- card-1 End -->
+
+                    <!-- card-2 start -->
+
+
+                    <div class="col-33">
+                        <div class="image">
+                            <img src="ImagePro03-CSS/image09-pro03CSS.png" alt="image" />
+                        </div>
+                        <div class="text">
+                            <p>
+                                A lacus vestibulum sed. Amet purus gravida quis blandit
+                                turpis. Enim facilisis gravida neque convallis.
+                            </p>
+                            <button>Visit Now</button>
+                        </div>
+                    </div>
+
+                    <!-- card-2 End -->
+
+
+                    <!-- card-3 start -->
+
+                    <div class="col-33">
+                        <div class="image">
+                            <img src="ImagePro03-CSS/image10-pro03CSS.png" alt="image" />
+                        </div>
+                        <div class="text">
+                            <p>
+                                A lacus vestibulum sed. Amet purus gravida quis blandit
+                                turpis. Enim facilisis gravida neque convallis.
+                            </p>
+                            <button>Visit Now</button>
+                        </div>
+                    </div>
+
+                    <!-- card-3 End -->
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
