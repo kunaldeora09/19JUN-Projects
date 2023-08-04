@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.yogadiv{
+    background-color: #f4f9f4;
+}
+
 nav {
     position: relative;
     margin-bottom: 100px;
@@ -48,24 +52,37 @@ img {
 .yogline {
     display: flex;
     justify-content: space-around;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .col-50 {
-    /* border: 2px solid black; */
+    border: 2px solid black;
     width: 50%;
     font-family: sans-serif;
     text-align: center;
     color: #3a6360;
+    position: relative;
+    /* padding-bottom: 100px; */
 }
 
 .round{
     width: 40%;
-    margin: 3.5% auto;
+    margin: 7% auto;
     /* border: 2px solid black; */
+    position: relative;
+}
+
+.deg{
+    position: absolute;
+    left: 15%;
+    top: -14%;
+    width: 70%;
 }
 
 .circle{
     border-radius: 50%;
+    border: 2px solid #3a6360;
 }
 
 .yogaclass {
