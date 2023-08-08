@@ -1,0 +1,101 @@
+@media (max-width: 991.98px) {
+    .yogaclass {
+        margin-top: 0%;
+    }
+
+    .deg {
+        top: -10%;
+    }
+
+    .newclass h2 {
+        font-size: 25px;
+        margin-top: 20%;
+    }
+
+    .newclass p {
+        padding: 0px 25px 0px 25px;
+    }
+
+    .design, .sign, .adjust{
+        width: 33%;
+        top: -7%
+    }
+
+    .sign{
+        left: 33.6%;
+    }
+
+    .adjust{
+    left: 71.3%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .side {
+        display: none;
+    }
+
+    .icon,
+    input {
+        display: block;
+    }
+
+    input:checked+.cont {
+        display: block;
+        left: 79%;
+        z-index: 4;
+    }
+
+    .logo {
+        width: 10%;
+    }
+
+    .yogaclass {
+        font-size: 45px;
+    }
+
+    .yogapara {
+        padding: 0px;
+    }
+
+    .deg {
+        top: -9%;
+    }
+    .newclass h2{
+        font-size: 19px;
+        margin-top: 30%;
+    }
+
+    .newclass p{
+        padding: 0px 0px 0px 0px;
+    }
+
+    .design, .sign, .adjust{
+        width: 30%;
+        top: -6%;
+    }
+    
+    .design{
+        left: -4.2%;
+    }
+
+    .sign{
+        left: 34.8%;
+    }
+
+    .adjust{
+        left: 74%;
+    }
+}
+
+/* 
+@media (max-width: 575.98px) {
+
+    .yogaclass {
+        font-size: 100px;
+    }
+
+    .deg {
+        top: -6%;
+    }
+} */
