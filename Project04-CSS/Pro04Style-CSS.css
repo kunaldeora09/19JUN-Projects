@@ -34,7 +34,7 @@ nav {
     font-size: 20px;
 }
 
-input {
+.hide {
     cursor: pointer;
     position: absolute;
     width: 20px;
@@ -221,7 +221,7 @@ img {
 .newclass {
     color: #f4f9f4;
     font-family: 'Baloo Bhai 2', sans-serif;
-    margin-top: 10%;
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -289,16 +289,17 @@ img {
 .bestdiv {
     display: flex;
     background-color: #6c9894;
+    justify-content: space-around;
 }
-.bestimg{
-    height: 10%;
+
+.bestimg {
+    width: 30%;
 }
 
 .ins {
     color: #f4f9f4;
     font-family: 'Baloo Bhai 2', sans-serif;
     margin-top: 100px;
-    width: 50%;
 }
 
 .ins h2 {
@@ -322,18 +323,216 @@ img {
     margin-top: 20px;
 }
 
-.expediv{
-    display: flex;
-    background-color: #f4f9f4;
+.bigexpe {
+    position: relative;
+    overflow: hidden;
 }
 
-.col50{
-    width: 50%;
+.bigpos {
+    position: absolute;
+    left: 80%;
+    top: 0%;
+    width: 43%;
+}
+
+.expediv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col50 {
+    width: 30%;
     color: #3a6360;
     font-family: 'Baloo Bhai 2', sans-serif;
     padding: 50px;
+    z-index: 4;
 }
 
-.col50 h2{
+.col50 h2 {
+    font-size: 36px;
+    margin-top: 100px;
+}
+
+.col50 button {
+    color: #f4f9f4;
+    background-color: #3a6360;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-weight: bolder;
+    padding: 7px 30px 7px 30px;
+}
+
+.pridiv {
+    background-color: #6c9894;
+}
+
+.pricing {
+    text-align: center;
+    color: #f4f9f4;
+    padding-top: 6px;
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+
+.pricing h2 {
     font-size: 50px;
+}
+
+.newstar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.addclass {
+    background-color: #f4f9f4;
+    color: #6c9894;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    border-radius: 5px;
+    padding: 20px 30px;
+    padding-bottom: 40px;
+    margin-bottom: 70px;
+}
+
+.addclass img {
+    margin-top: 10px;
+    height: 50%;
+    width: 40%;
+}
+
+.addclass p {
+    margin-top: 5px;
+}
+
+.addclass button {
+    color: #f4f9f4;
+    background-color: #6c9894;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 7px 30px 7px 30px;
+    margin-top: 5px;
+    font-weight: bolder;
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+
+.backcir {
+    background: url(ImagePro04-CSS/image14-pro04CSS.png)no-repeat center center/cover;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    color: #6c9894;
+    text-align: center;
+    position: relative;
+}
+
+.deimg {
+    margin: 5% auto;
+    width: 20%;
+    position: relative;
+}
+
+.deimg img {
+    border-radius: 50%;
+    border: 2px solid #3a6360;
+}
+
+.backcir p {
+    font-size: 30px;
+}
+
+.backcir h2 {
+    font-size: 50px;
+    padding-bottom: 100px;
+}
+
+.avg {
+    position: absolute;
+    width: 27%;
+    left: 36.5%;
+    top: -6%;
+}
+
+.dont {
+    background-color: #6c9894;
+    color: #f4f9f4;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.dont h2 {
+    font-size: 50px;
+    padding-top: 70px;
+}
+
+.dont input::placeholder {
+    color: #6c9894;
+}
+
+.dont input {
+    width: 30%;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color: #6c9894;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.dont button {
+    color: #6c9894;
+    position: absolute;
+    background-color: #f4f9f4;
+    border-radius: 25px;
+    padding: 12px 20px 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    left: 60%;
+    top: 62.3%;
+}
+
+footer {
+    display: flex;
+    color: #6c9894;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    padding: 100px 40px 100px 40px;
+    background-color: #f4f9f4;
+    gap: 70px;
+}
+
+.titlediv {
+    width: 40%;
+}
+
+.aboutdiv {
+    display: flex;
+    width: 60%;
+}
+
+.about {
+    width: 33.33%;
+}
+
+.his {
+    color: #6c9894;
+    text-decoration: none;
+}
+
+.his:hover {
+    text-decoration: underline;
+}
+
+.about li {
+    margin: 5px;
+}
+
+.about li i {
+    font-size: 20px;
+    padding-right: 10px;
 }

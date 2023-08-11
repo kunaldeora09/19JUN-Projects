@@ -16,17 +16,19 @@
         padding: 0px 25px 0px 25px;
     }
 
-    .design, .sign, .adjust{
+    .design,
+    .sign,
+    .adjust {
         width: 33%;
         top: -7%
     }
 
-    .sign{
+    .sign {
         left: 33.6%;
     }
 
-    .adjust{
-    left: 71.3%;
+    .adjust {
+        left: 71.3%;
     }
 }
 
@@ -36,11 +38,11 @@
     }
 
     .icon,
-    input {
+    .hide {
         display: block;
     }
 
-    input:checked+.cont {
+    .hide:checked+.cont {
         display: block;
         left: 79%;
         z-index: 4;
@@ -61,35 +63,64 @@
     .deg {
         top: -9%;
     }
-    .newclass h2{
+
+    .newclass h2 {
         font-size: 19px;
         margin-top: 30%;
     }
 
-    .newclass p{
+    .newclass p {
         padding: 0px 0px 0px 0px;
     }
 
-    .design, .sign, .adjust{
+    .design,
+    .sign,
+    .adjust {
         width: 30%;
         top: -6%;
     }
-    
-    .design{
+
+    .design {
         left: -4.2%;
     }
 
-    .sign{
+    .sign {
         left: 34.8%;
     }
 
-    .adjust{
+    .adjust {
         left: 74%;
+    }
+
+    .ins button {
+        margin-bottom: 100px;
+    }
+
+    .col50 {
+        width: 50%;
+    }
+
+    .bigpos {
+        width: 70%;
+        left: 66%;
+        top: 0%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .titlediv {
+        width: 60%;
+    }
+
+    .aboutdiv {
+        width: 100%;
     }
 }
 
-/* 
-@media (max-width: 575.98px) {
+
+@media (max-width: 576px) {
 
     .yogaclass {
         font-size: 100px;
@@ -98,4 +129,89 @@
     .deg {
         top: -6%;
     }
-} */
+
+    .yogline {
+        display: block;
+        margin-left: 100px;
+        padding-left: 65px;
+    }
+
+    .round {
+        width: 65%;
+    }
+
+    .deg {
+        width: 100%;
+        left: 0%;
+        top: -15%;
+    }
+
+    .yogaclass {
+        font-size: 40px;
+    }
+
+    .com {
+        display: none;
+    }
+
+    .chooseclass h2 {
+        font-size: 70px;
+    }
+
+    .chooseclass p {
+        font-size: 23px;
+    }
+
+    .design,
+    .adjust,
+    .sign {
+        width: 24%;
+        top: -3%;
+    }
+
+    .design {
+        left: -3%;
+    }
+
+    .adjust {
+        left: 79%;
+    }
+
+    .sign {
+        left: 38%;
+    }
+
+    .linecircle {
+        flex-wrap: wrap;
+    }
+
+    .ins h2 {
+        font-size: 30px;
+    }
+
+    .ins,
+    .bestimg {
+        width: 50%;
+    }
+
+    .ins p {
+        font-size: 10px;
+    }
+
+    .col50 {
+        width: 50%;
+        padding: 20px;
+    }
+
+    .avg {
+        top: -5%;
+    }
+
+    .backcir p {
+        font-size: 10px;
+    }
+
+    .backcir h2 {
+        font-size: 30px;
+    }
+}
