@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backimg {
+    background: url(ImagePro05-CSS/image02-pro05CSS.png)no-repeat center center/cover;
+    position: relative;
+}
+
+.black {
+    width: 100%;
+    height: 595px;
+    background-color: black;
+    opacity: 0.502;
+    position: absolute;
+}
+
+.login {
+    background-color: white;
+    padding: 10px 12px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    position: absolute;
+    left: 25px;
+    top: 50px;
+}
+
+.login:hover {
+    background-color: rgb(235, 230, 230);
+}
+
+.con {
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    width: 10%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.container h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #333333;
+    margin-top: 5px;
+}
+
+.dis {
+    font-family: sans-serif;
+    color: #333333;
+    margin-top: 12px;
+}
+
+.email,
+.face {
+    color: white;
+    font-weight: 600;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.email {
+    background-color: #e60023;
+    padding: 13px 60px;
+    margin-top: 23px;
+}
+
+.email:hover {
+    background-color: #af0b24;
+}
+
+.face i {
+    font-size: 25px;
+    position: absolute;
+    left: 13px;
+    top: 9px;
+}
+
+.face {
+    background-color: #0873ff;
+    padding: 13px 30px 13px 60px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.google img {
+    width: 10%;
+    position: absolute;
+    left: 13px;
+    top: 9px;
+}
+
+.google {
+    color: black;
+    position: relative;
+    margin-top: 10px;
+    padding: 13px 40px 13px 75px;
+    background-color: white;
+    border-radius: 25px;
+    font-size: 15px;
+    border: 1px solid gray;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.light {
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+    color: gray;
+}
+
+p a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.line:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 20px 40px;
+    background-color: gray;
+}
+
+.space {
+    padding-bottom: 25px;
+}
