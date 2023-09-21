@@ -226,6 +226,8 @@ input::placeholder{
 .content>h2{
     color: #16AA51;
     font-size: 22px;
+    display: inline-block;
+    cursor: pointer;
 }
 .detail{
     display: flex;
@@ -241,6 +243,10 @@ input::placeholder{
     justify-content: center;
     padding-top: 0;
     
+}
+.img1{
+    /* display: inline-block; */
+    cursor: pointer;
 }
 .img>img{
     width: 70%;
