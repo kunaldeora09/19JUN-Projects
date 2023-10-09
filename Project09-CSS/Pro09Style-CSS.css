@@ -310,7 +310,7 @@ box{
     
 }
 .content1>h3{
-    margin-left: 80px;
+    margin-left: 35px;
 }
 .section2>h1,.section4>h1,.section6>h1,.background2>h1{
     padding-top: 140px;
@@ -404,7 +404,7 @@ box{
     justify-content: space-between;
     gap: 40px;
 }
-bar{
+.bar{
     width: 9px;
     height: 110px;
     background-color: #16AA51;
@@ -688,11 +688,11 @@ footer{
 }
 .social>i{
     font-size: 20px;
-    padding-right: 28px;
+    padding-right: 17px;
 }
 .stay p{
     padding-bottom: 12px;
-    margin: 0;
+    margin-left: 30px;
     font-style: italic;
     font-weight: 600;
     font-size: 16px;
@@ -702,6 +702,7 @@ footer{
     font-size: 18px;
     border: 1.5px solid #e0e0e0;
     padding: 16px;
+    margin-left: 30px;
 }
 .stay input::placeholder{
     color: rgb(117, 117, 117);
@@ -709,7 +710,8 @@ footer{
 .stay>button{
     padding: 16px;
     margin-top: 20px;
-    font-size: 17px;
+    margin-left: 30px;
+    font-size: 15px;
 }
 .stay .logo3{
     margin-left: 10px;
