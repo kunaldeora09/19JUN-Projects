@@ -38,7 +38,7 @@
 }
 
 .space {
-    width: 36.7%;
+    width: 36%;
 }
 
 .search {
@@ -58,10 +58,80 @@
     cursor: pointer;
 }
 
-.equal{
+.equal {
     color: white;
     font-size: 24px;
     border-right: 1px solid rgba(255, 255, 255, 0.1);
     cursor: pointer;
     padding: 16px 19px 0px 19px;
+}
+
+.lang {
+    color: white;
+    cursor: pointer;
+    font-weight: lighter;
+    padding: 20px 6px 0px 19px;
+    font-size: 13px;
+}
+
+.second {
+    height: 45px;
+    font-family: sans-serif;
+    display: flex;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .1);
+    position: relative;
+}
+
+.men {
+    transform: skewX(-0.10turn);
+    background-color: #c65142;
+    margin-left: -20px;
+    padding: 0px 75px 0px 50px;
+    cursor: pointer;
+}
+
+.women {
+    padding: 0px 75px 0px 30px;
+    transform: skewX(-0.10turn);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.m {
+    position: absolute;
+    color: white;
+    top: 14px;
+    left: 30px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.w {
+    position: absolute;
+    top: 14px;
+    left: 132px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.videos,
+.fixtures,
+.results,
+.news,
+.players,
+.ranking,
+.stats,
+.sat,
+.archive {
+    padding: 13px 15px 0px 20px;
+    color: rgba(0, 0, 0, .5);
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.si {
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 10px 0px 10px 0px;
 }
