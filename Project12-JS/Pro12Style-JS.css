@@ -74,6 +74,46 @@
     font-size: 13px;
 }
 
+.searchbar {
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: none;
+}
+
+.find,
+.sel {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 4px;
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+.find {
+    width: 500px;
+}
+
+.submit {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 4px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 30px;
+    color: white;
+    background-color: #c65142;
+    cursor: pointer;
+}
+
+.find:focus {
+    outline: 5px solid rgba(151, 216, 238, 0.823);
+    transition: 0.2s;
+}
+
+.sel:focus {
+    outline: none;
+}
+
+
 .second {
     height: 45px;
     font-family: sans-serif;
