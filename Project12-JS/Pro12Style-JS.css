@@ -50,9 +50,7 @@
     cursor: pointer;
 }
 
-.cwc,
-.ipl,
-.wpl {
+.cwc {
     padding: 12px 16px 20px 16px;
     border-right: 1px solid rgba(255, 255, 255, 0.1);
     cursor: pointer;
@@ -84,8 +82,8 @@
 .find,
 .sel {
     border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 7px;
     margin-top: 4px;
-    padding: 10px;
     border-radius: 30px;
     margin-right: 5px;
 }
@@ -96,8 +94,7 @@
 
 .submit {
     border: 1px solid rgba(0, 0, 0, 0.1);
-    margin-top: 4px;
-    padding: 10px 15px 10px 15px;
+    padding: 7px 10px 7px 10px;
     border-radius: 30px;
     color: white;
     background-color: #c65142;
@@ -174,4 +171,33 @@
     width: 1px;
     background-color: rgba(0, 0, 0, 0.1);
     margin: 10px 0px 10px 0px;
+}
+
+.linkbar {
+    display: flex;
+    height: 40px;
+    color: #133f7e;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.ar {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.qlink {
+    margin: 7px 40px 7px 15px;
+    border-radius: 30px;
+    background-color: #A0c7ff;
+    padding: 6px 20px;
+}
+
+.domsch,
+.inter-results,
+.bcci-doc,
+.tender,
+.jobs {
+    margin-top: 11px;
+    margin-right: 40px;
+    cursor: pointer;
 }
