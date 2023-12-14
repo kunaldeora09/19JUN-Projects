@@ -167,4 +167,32 @@ $(function () {
   $(".search").click(function () {
     $(".searchbar").slideToggle();
   });
+
+  $(".fix").click(function () {
+    $(this).css({
+      color: "#2255A4",
+      borderBottom: "5px solid #2255A4",
+      fontWeight: "500",
+    });
+
+    $(".res").css({
+      color: "gray",
+      borderBottom: "none",
+      fontWeight: "normal",
+    });
+  });
+
+  $(".res").click(function () {
+    $(this).css({
+      color: "#2255A4",
+      borderBottom: "5px solid #2255A4",
+      fontWeight: "500",
+    });
+
+    $(".fix").css({
+      color: "gray",
+      borderBottom: "none",
+      fontWeight: "normal",
+    });
+  });
 });
