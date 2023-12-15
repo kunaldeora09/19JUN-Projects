@@ -214,7 +214,7 @@
 }
 
 .fix {
-    font-size: 23px;
+    font-size: 21px;
     color: #2255A4;
     font-weight: 500;
     margin-right: 40px;
@@ -224,14 +224,14 @@
 }
 
 .res {
-    font-size: 23px;
+    font-size: 21px;
     cursor: pointer;
     color: gray;
     margin-top: 7px;
 }
 
 .area {
-    width: 60%;
+    width: 55%;
 }
 
 .seeall {
@@ -245,6 +245,7 @@
     border: 2px solid gray;
     padding: 5px;
     border-radius: 50px;
+    color: gray;
 }
 
 .imgline {
@@ -266,4 +267,81 @@
     width: 35%;
     height: 35%;
     cursor: pointer;
+}
+
+.viddiv {
+    background-image: url(ImagePro12-JS/image13-pro12JS.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vidline {
+    display: flex;
+}
+
+.vid {
+    color: white;
+    font-size: 35px;
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 80px;
+    font-weight: bolder;
+}
+
+.latest,
+.highlights,
+.featured,
+.interviews,
+.press-conferences {
+    color: gray;
+    margin-top: 48px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.latest {
+    border-bottom: 4px solid #c65142;
+    margin-left: 100px;
+}
+
+.highlights,
+.featured,
+.interviews,
+.press-conferences {
+    margin-left: 40px;
+}
+
+.arrow {
+    margin-top: 48px;
+    margin-left: 90px;
+}
+
+.fa-chevron-left {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.157);
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.fa-chevron-right {
+    cursor: pointer;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.501);
+}
+
+.seeall-h {
+    margin-top: 43px;
+    margin-left: 50px;
+    color: gray;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.seeall-h:hover {
+    color: white;
+}
+
+.seeall-h:hover i {
+    background-color: white;
 }

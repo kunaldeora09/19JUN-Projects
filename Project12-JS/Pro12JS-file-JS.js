@@ -195,4 +195,39 @@ $(function () {
       fontWeight: "normal",
     });
   });
+
+  $(".latest").click(function () {
+    $(this).css({ borderBottom: "4px solid #c65142" });
+    $(".highlights, .featured, .interviews, .press-conferences").css({
+      borderBottom: "none",
+    });
+  });
+
+  $(".highlights").click(function () {
+    $(this).css({ borderBottom: "4px solid #c65142" });
+    $(".latest, .featured, .interviews, .press-conferences").css({
+      borderBottom: "none",
+    });
+  });
+
+  $(".featured").click(function () {
+    $(this).css({ borderBottom: "4px solid #c65142" });
+    $(".highlights, .latest, .interviews, .press-conferences").css({
+      borderBottom: "none",
+    });
+  });
+
+  $(".interviews").click(function () {
+    $(this).css({ borderBottom: "4px solid #c65142" });
+    $(".highlights, .featured, .latest, .press-conferences").css({
+      borderBottom: "none",
+    });
+  });
+
+  $(".press-conferences").click(function () {
+    $(this).css({ borderBottom: "4px solid #c65142" });
+    $(".highlights, .featured, .interviews, .latest").css({
+      borderBottom: "none",
+    });
+  });
 });
