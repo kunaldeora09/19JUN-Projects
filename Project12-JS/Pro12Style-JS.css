@@ -345,3 +345,96 @@
 .seeall-h:hover i {
     background-color: white;
 }
+
+.videodiv {
+    display: flex;
+    margin-top: 40px;
+    position: relative;
+    padding-bottom: 310px;
+}
+
+.videodiv img {
+    border-radius: 20px;
+}
+
+.vid-1,
+.vid-2,
+.vid-3,
+.vid-4 {
+    position: absolute;
+    width: 276.59px;
+    height: 420.45px;
+    cursor: pointer;
+}
+
+.vid-1 {
+    left: 30px;
+}
+
+.vid-2 {
+    left: 336.59px;
+}
+
+.vid-3 {
+    left: 643.18px;
+}
+
+.vid-4 {
+    left: 949.77px;
+}
+
+.vid-1sharelink,
+.vid-2sharelink,
+.vid-3sharelink,
+.vid-4sharelink {
+    width: 180px;
+    padding: 5px;
+    background-color: white;
+    position: absolute;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: default;
+    display: none;
+}
+
+.vid-1sharelink,
+.vid-2sharelink,
+.vid-3sharelink,
+.vid-4sharelink {
+    top: 384px;
+    left: 4px;
+}
+
+.fa-x-twitter,
+.fa-link,
+.fa-facebook-f {
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.vid-1:hover .vid-1sharelink,
+.vid-2:hover .vid-2sharelink,
+.vid-3:hover .vid-3sharelink,
+.vid-4:hover .vid-4sharelink {
+    display: flex;
+}
+
+.newsline {
+    display: flex;
+    margin-top: 100px;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.latnews {
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.seeall-l {
+    margin-right: 70px;
+}
