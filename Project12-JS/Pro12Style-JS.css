@@ -386,12 +386,21 @@
 .vid-1sharelink,
 .vid-2sharelink,
 .vid-3sharelink,
-.vid-4sharelink {
+.vid-4sharelink,
+.newsimgshare,
+.newstextshare-1,
+.newstextshare-2,
+.newstextshare-3,
+.newstextshare-4,
+.newstextshare-5,
+.newstextshare-6,
+.newstextshare-7 {
     width: 180px;
     padding: 5px;
     background-color: white;
     position: absolute;
     font-size: 13px;
+    border: 1px solid rgba(128, 128, 128, 0.419);
     border-radius: 5px;
     cursor: default;
     display: none;
@@ -421,6 +430,10 @@
     display: flex;
 }
 
+.latnewsdiv {
+    margin-bottom: 50px;
+}
+
 .newsline {
     display: flex;
     margin-top: 100px;
@@ -437,4 +450,67 @@
 
 .seeall-l {
     margin-right: 70px;
+}
+
+.newsimgdiv {
+    display: flex;
+    margin-top: 15px;
+}
+
+.newsimg {
+    width: 710px;
+    height: 500px;
+    margin-left: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.newsimg:hover .newsimgshare {
+    display: flex;
+}
+
+.newsimgshare {
+    top: 460px;
+    left: 470px;
+}
+
+.newstext {
+    width: 500px;
+    height: 500px;
+    overflow: scroll;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.newstextimg-1:hover .newstextshare-1,
+.newstextimg-2:hover .newstextshare-2,
+.newstextimg-3:hover .newstextshare-3,
+.newstextimg-4:hover .newstextshare-4,
+.newstextimg-5:hover .newstextshare-5,
+.newstextimg-6:hover .newstextshare-6,
+.newstextimg-7:hover .newstextshare-7 {
+    display: flex;
+}
+
+.newstextimg-1,
+.newstextimg-2,
+.newstextimg-3,
+.newstextimg-4,
+.newstextimg-5,
+.newstextimg-6,
+.newstextimg-7 {
+    position: relative;
+}
+
+
+
+.newstextshare-1,
+.newstextshare-2,
+.newstextshare-3,
+.newstextshare-4,
+.newstextshare-5,
+.newstextshare-6,
+.newstextshare-7 {
+    left: 250px;
+    top: 75px;
 }
