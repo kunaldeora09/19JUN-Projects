@@ -431,7 +431,7 @@
 }
 
 .latnewsdiv {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .newsline {
@@ -513,4 +513,167 @@
 .newstextshare-7 {
     left: 250px;
     top: 75px;
+}
+
+.bcciapp {
+    display: flex;
+    position: relative;
+    height: 535px;
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+
+.bcciapptext {
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 50px;
+    z-index: 3;
+}
+
+.bcciapptext h1 {
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.bcciapptext p {
+    font-size: 20px;
+    padding-right: 100px;
+}
+
+.sharelogo {
+    display: flex;
+    margin-top: 30px;
+}
+
+.google,
+.appstore {
+    width: 141px;
+    height: 43px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.bcciimg {
+    width: 412px;
+    height: 458px;
+    margin-top: 50px;
+    z-index: 2;
+}
+
+.bcciset {
+    position: absolute;
+    left: 170px;
+}
+
+.thegamediv {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.gametext {
+    width: 250px;
+    height: 150px;
+    margin: 100px 50px 0px 50px;
+    padding-top: 30px;
+}
+
+.gametext p {
+    color: gray;
+}
+
+.textslidediv {
+    display: flex;
+}
+
+.teamrank {
+    background-color: #2255A4;
+    color: white;
+    width: 300px;
+    height: 301px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-top: 67px;
+}
+
+.dis-fx {
+    display: flex;
+    height: 150px;
+}
+
+.rank-1 {
+    width: 150px;
+    height: 150px;
+    border-right: 1px solid rgba(255, 255, 255, .2);
+}
+
+.rank-3 {
+    height: 150px;
+    border-top: 1px solid rgba(255, 255, 255, .2);
+    position: relative;
+    overflow: hidden;
+}
+
+.rank-1 p {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 11px;
+}
+
+.rank-1 h2,
+.rank-2 h2 {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.rank-1 h2 {
+    padding-top: 30px;
+}
+
+.rank-2 h2 {
+    padding-top: 85px;
+}
+
+.rank-1 span,
+.rank-2 span {
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.rank-3 span {
+    font-size: 12px;
+}
+
+.rank-3 h1 {
+    display: inline-block;
+    font-size: 80px;
+    font-weight: 400;
+    padding-top: 55px;
+    padding-left: 20px;
+}
+
+.rank-3 img {
+    width: 150px;
+    height: 150px;
+    opacity: 0.6;
+    position: absolute;
+    top: 30px;
+    left: 185px;
+}
+
+.seediv {
+    width: 613px;
+    border-top-left-radius: 20px;
+    background-color: rgba(230, 233, 241, .75);
+    height: 67px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.side {
+    width: 510px;
+}
+
+.imgslidediv {
+    display: flex;
 }
