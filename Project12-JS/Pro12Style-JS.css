@@ -567,7 +567,6 @@
 
 .thegamediv {
     display: flex;
-    margin-bottom: 50px;
 }
 
 .gametext {
@@ -676,4 +675,208 @@
 
 .imgslidediv {
     display: flex;
+}
+
+
+.weardiv {
+    display: flex;
+    margin-top: 70px;
+    gap: 50px;
+}
+
+.wearimgdiv {
+    width: 500px;
+    height: 370px;
+}
+
+.yourpassiondiv {
+    width: 545px;
+    height: 220px;
+    margin-top: 40px;
+}
+
+.weartext {
+    margin-top: 30px;
+    width: 310px;
+    margin-left: 100px;
+    padding-left: 22px;
+}
+
+.weartext p {
+    color: #2b3f6c;
+    font-size: 18px;
+}
+
+.weartext button {
+    background-color: #f25549;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 6px 36px;
+    border: none;
+}
+
+.honoursdiv {
+    background-image: url(ImagePro12-JS/image13-pro12JS.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    height: 345px;
+    margin-bottom: 180px;
+}
+
+.honoursline {
+    font-size: 36px;
+    color: white;
+    margin-left: 50px;
+    padding-top: 50px;
+    font-weight: 500;
+}
+
+.honoursimgdiv {
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+}
+
+.honoursimgdiv img {
+    border-radius: 8px;
+}
+
+.honoursimg-1,
+.honoursimg-2,
+.honoursimg-3,
+.honoursimg-4 {
+    position: absolute;
+    width: 245px;
+    height: 300px;
+    border: 1px solid #728ed9;
+    border-radius: 8px;
+}
+
+.honoursimg-1 {
+    left: 50px;
+}
+
+.honoursimg-2 {
+    left: 345px;
+}
+
+.honoursimg-3 {
+    left: 640px;
+}
+
+.honoursimg-4 {
+    left: 935px;
+}
+
+.filldiv {
+    width: 180px;
+    height: 4px;
+    display: flex;
+    position: absolute;
+    top: 320px;
+    left: 525px;
+    cursor: pointer;
+}
+
+.fill-1 {
+    width: 60px;
+    background-color: #c65142;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.fill-2 {
+    width: 60px;
+    background-color: #848484;
+}
+
+.fill-3 {
+    width: 60px;
+    background-color: #848484;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.sp {
+    width: 630px;
+}
+
+.galleriesimgdiv {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-bottom: 40px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.galleriesimgdiv img {
+    border-radius: 10px;
+}
+
+.galleriesimg-1,
+.galleriesimg-2,
+.galleriesimg-3,
+.galleriesimg-4,
+.galleriesimg-5,
+.galleriesimg-6 {
+    width: 376px;
+    height: 220px;
+    cursor: pointer;
+}
+
+.gradientimg-1,
+.gradientimg-2,
+.gradientimg-3,
+.gradientimg-4,
+.gradientimg-5,
+.gradientimg-6 {
+    width: 376px;
+    height: 220px;
+    border-radius: 10px;
+    position: absolute;
+    transition: 0.4s;
+    color: white;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.77) 100%);
+    padding-left: 20px;
+    opacity: 0;
+}
+
+.imgnum {
+    padding: 4px 16px 4px 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #c65142;
+    margin-top: 145px;
+    margin-bottom: 5px;
+}
+
+.imgnum i {
+    margin-right: 5px;
+}
+
+.gradientimg-1,
+.gradientimg-2,
+.gradientimg-3 {
+    top: 0;
+}
+
+.gradientimg-4,
+.gradientimg-5,
+.gradientimg-6 {
+    top: 235px;
+}
+
+.galleriesimg-1:hover .gradientimg-1,
+.galleriesimg-2:hover .gradientimg-2,
+.galleriesimg-3:hover .gradientimg-3,
+.galleriesimg-4:hover .gradientimg-4,
+.galleriesimg-5:hover .gradientimg-5,
+.galleriesimg-6:hover .gradientimg-6 {
+    transition: 0.4s;
+    opacity: 1;
 }

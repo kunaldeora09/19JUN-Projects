@@ -230,4 +230,19 @@ $(function () {
       borderBottom: "none",
     });
   });
+
+  $(".fill-1").click(function () {
+    $(this).css({ backgroundColor: "#c65142" });
+    $(".fill-2, .fill-3").css({ backgroundColor: "#848484" });
+  });
+
+  $(".fill-2").click(function () {
+    $(this).css({ backgroundColor: "#c65142" });
+    $(".fill-1, .fill-3").css({ backgroundColor: "#848484" });
+  });
+
+  $(".fill-3").click(function () {
+    $(this).css({ backgroundColor: "#c65142" });
+    $(".fill-2, .fill-1").css({ backgroundColor: "#848484" });
+  });
 });
