@@ -77,6 +77,7 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     text-align: center;
     display: none;
+    background-color: white;
 }
 
 .find,
@@ -117,6 +118,7 @@
     display: flex;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, .1);
     position: relative;
+    background-color: white;
 }
 
 .men {
@@ -179,6 +181,7 @@
     color: #133f7e;
     font-family: sans-serif;
     font-size: 13px;
+    margin-top: 105px;
 }
 
 .ar {
@@ -414,9 +417,8 @@
     left: 4px;
 }
 
-.fa-x-twitter,
-.fa-link,
-.fa-facebook-f {
+.videodiv i,
+.newsimgdiv i {
     margin-left: 10px;
     font-size: 15px;
     margin-top: 5px;
@@ -879,4 +881,90 @@
 .galleriesimg-6:hover .gradientimg-6 {
     transition: 0.4s;
     opacity: 1;
+}
+
+.footdiv-1 {
+    height: 144px;
+    margin-top: 70px;
+    background-color: black;
+}
+
+.footdiv-1 img {
+    cursor: pointer;
+    border: 2px solid #d2a66c;
+    border-radius: 20px;
+}
+
+.footdiv-2 {
+    background-image: url(ImagePro12-JS/image49-pro12JS.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footimgline {
+    display: flex;
+    padding: 50px 0px 50px 20px;
+}
+
+.footlogo {
+    width: 74px;
+    height: 74px;
+}
+
+.as {
+    width: 900px;
+}
+
+.logoshare i {
+    color: white;
+    font-size: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.textfoot {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.textfoot h3 {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+
+.textfoot li,
+.textfoot p {
+    color: #ffffff94;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 7px;
+}
+
+.textfoot a {
+    cursor: pointer;
+}
+
+.textfoot p {
+    width: 200px;
+}
+
+.footdiv-3 {
+    display: flex;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 7px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #343c4c;
+    color: white;
+}
+
+.kd {
+    cursor: pointer;
+}
+
+.footdiv-3 div {
+    width: 730px;
 }
