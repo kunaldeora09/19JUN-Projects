@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Project</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      a {
+        text-decoration: none;
+        color: burlywood;
+      }
+      .nav {
+        font-size: 20px;
+        background-image: linear-gradient(black 60%, red);
+      }
+      table,
+      td,
+      th {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table cellspacing="0" width="100%">
+      <!-- Navbar -->
+      <thead width="100%">
+        <tr>
+          <!-- Logo -->
+          <th>
+            <a href=""
+              ><img
+                src="Image_HTML_Project/01img_HTML_Project.jpeg"
+                alt="Image"
+                width="100%"
+                height="75px"
+            /></a>
+          </th>
+
+          <!-- Home -->
+          <th class="nav" width="15%"><a href="">Home</a></th>
+
+          <!-- Practice -->
+          <th class="nav" width="15%">
+            <a href="Practice_HTML_Project.html" target="myname">Practice</a>
+          </th>
+
+          <!-- Task -->
+          <th class="nav" width="15%">
+            <a href="Task_HTML_Project.html" target="myname">Task</a>
+          </th>
+
+          <!-- Project -->
+          <th class="nav" width="15%">
+            <a href="Projects_HTML_Project.html" target="myname">Project</a>
+          </th>
+
+          <!-- Practical -->
+          <th class="nav" width="15%">
+            <a href="Practical_HTML_Project.html" target="myname">Practical</a>
+          </th>
+
+          <!-- About -->
+          <th class="nav" width="15%">
+            <a href="About_HTML_Project.html" target="display">About Me</a>
+          </th>
+        </tr>
+      </thead>
+      <!-- Navbar End -->
+
+      <!-- Content And Display -->
+      <tbody height="469px">
+        <tr>
+          <td>
+            <iframe
+              height="464px"
+              src=""
+              name="myname"
+              frameborder="0"
+            ></iframe>
+          </td>
+          <td colspan="7">
+            <iframe
+              src=""
+              height="464px"
+              width="100%"
+              name="display"
+              frameborder="0"
+            ></iframe>
+          </td>
+        </tr>
+      </tbody>
+      <!-- Content And Display End -->
+    </table>
+  </body>
+</html>

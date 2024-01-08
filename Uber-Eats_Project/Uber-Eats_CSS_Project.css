@@ -7,7 +7,7 @@
 .background {
     height: 569px;
     width: 100%;
-    background-image: url(ImagePro01-CSS/image4-pro01CSS.jpg);
+    background-image: url(Image_Uber-Eats_Project/04img_Uber-Eats_Project.jpg);
 }
 
 header {
@@ -19,17 +19,18 @@ header {
     margin: 40px;
 }
 
-.fa-bars{
+.fa-bars {
     margin-right: 30px;
     font-size: 20px;
     cursor: pointer;
 }
 
-.ubername{
+.ubername {
     cursor: pointer;
 }
 
-.login, .signup{
+.login,
+.signup {
     padding: 14px 18px;
     border-radius: 25px;
     font-size: 16px;
@@ -37,7 +38,7 @@ header {
     cursor: pointer;
 }
 
-.login{
+.login {
 
     color: black;
     background-color: white;
@@ -48,7 +49,7 @@ header {
     background-color: #cccccc;
 }
 
-.signup{
+.signup {
     margin-right: 40px;
     margin-top: 25px;
     color: white;

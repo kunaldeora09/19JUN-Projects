@@ -117,15 +117,17 @@
 
 
 
-/* @media (max-width: 575.98px) {
+@media (max-width: 575.98px) {
 
     .duis {
         margin: 25px 100px 0px 100px;
     }
-    .coffe{
+
+    .coffe {
         font-size: 50px;
     }
-    .dark{
+
+    .dark {
         height: 480.5px;
     }
 
@@ -134,88 +136,98 @@
         top: 340px;
     }
 
-    .gift{
+    .gift {
         font-size: 15px;
     }
-    .big{
+
+    .big {
         font-size: 30px;
         margin-top: 10px;
     }
-    .pic{
+
+    .pic {
         padding-left: 30px;
         width: 70%;
         height: 50%;
     }
-    .logo{
+
+    .logo {
         width: 70%;
     }
-    .best{
+
+    .best {
         gap: 40px;
     }
 
-    .brand{
+    .brand {
         font-size: 35px;
         margin-top: 30px;
     }
 
-    .non{
+    .non {
         margin-top: 20px;
         font-size: 13px;
     }
-    .sit{
+
+    .sit {
         padding-left: 40px;
         padding-right: 40px;
     }
 
-    .col-33{
+    .col-33 {
         width: 90%;
     }
-    .americano{
+
+    .americano {
         margin-top: 0px;
     }
 
-    .box{
+    .box {
         left: 115px !important;
         top: 250px !important;
     }
 
-    .company{
+    .company {
         gap: 40px;
     }
-    .compro{
+
+    .compro {
         font-size: 25px;
         margin-top: 40px;
     }
-    .dictum{
+
+    .dictum {
         font-size: 14.8px;
     }
 
-    .mapmess{
+    .mapmess {
         flex-direction: column;
         gap: 0px;
     }
-    .map{
+
+    .map {
         width: 80%;
         margin: 50px auto;
     }
 
-    .contact{
+    .contact {
         text-align: center;
         font-size: 45px;
         margin-bottom: 20px;
     }
 
-    .fill{
+    .fill {
         width: 80%;
         margin: 0 auto;
         margin-top: 20px;
     }
 
-    .send{
+    .send {
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    .mess{
+
+    .mess {
         text-align: center;
     }
-} */
+}

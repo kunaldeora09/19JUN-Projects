@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title -->
+    <title>Pinterest</title>
+
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="Pinterest-Log-In_CSS_Project.css" />
+
+    <!-- Fav Icon Link -->
+    <link
+      rel="shortcut icon"
+      href="Image_Pinterest-Log-In_Project/01img_Pinterest-Log-In_Project.png"
+      type="image/x-icon"
+    />
+
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- Background Image Div Start -->
+    <div class="backimg">
+      <!-- Light-Black Div -->
+      <div class="black"></div>
+
+      <!-- Sign-up Button -->
+      <a href="Pinterest-Sign-Up_HTML_Project.html"
+        ><button class="sign">Sign up</button></a
+      >
+
+      <!-- Main Div Start -->
+      <div class="con">
+        <!-- Container Div Start -->
+        <div class="container">
+          <!-- Logo -->
+          <div class="logo">
+            <img
+              src="Image_Pinterest-Log-In_Project/01img_Pinterest-Log-In_Project.png"
+              alt="image"
+            />
+          </div>
+
+          <h2>Log in to see more</h2>
+
+          <!-- Email Input -->
+          <label for="email">Email</label>
+          <input type="email" name="email" placeholder="Email" />
+
+          <!-- Password Input -->
+          <label for="pass">Password</label>
+          <i class="fa-solid fa-eye" onclick="show()"></i>
+          <input type="password" name="pass" id="data" placeholder="Password" />
+
+          <!-- Password Show Script -->
+          <script>
+            function show() {
+              var x = document.getElementById("data");
+              if (x.type === "password") {
+                x.type = "text";
+              } else {
+                x.type = "password";
+              }
+            }
+          </script>
+
+          <!-- Forgot your password -->
+          <a class="forgot" href="https://in.pinterest.com/password/reset/"
+            >Forgot your password?</a
+          >
+
+          <!-- Log-in Button -->
+          <button class="redlog"><span>Log in</span></button>
+
+          <p class="or">OR</p>
+
+          <!-- Facebook Button -->
+          <button class="face">
+            <i class="fa-brands fa-facebook"></i> Continue with Facebook
+          </button>
+
+          <!-- Google Button -->
+          <button class="google">
+            <img
+              src="Image_Pinterest-Log-In_Project/03img_Pinterest-Log-In_Project.png"
+              alt="image"
+            />
+            Continue with Google
+          </button>
+
+          <p class="light">By continuing, you agree to Pinterest's</p>
+
+          <!-- Terms of Service -->
+          <p class="light">
+            <a
+              class="line"
+              href="https://policy.pinterest.com/en/terms-of-service"
+              target="_blank"
+              >Terms of Service
+            </a>
+            and acknowledge you've read our
+          </p>
+
+          <!-- privacy-policy -->
+          <p>
+            <a
+              class="line"
+              href="https://policy.pinterest.com/en/privacy-policy"
+              target="_blank"
+              >Privacy Policy.</a
+            ><a
+              class="line"
+              href="https://policy.pinterest.com/en/notice-at-collection"
+              target="_blank"
+            >
+              Notice at collection.</a
+            >
+          </p>
+
+          <hr />
+
+          <!-- Sign up text -->
+          <p class="light">
+            <a href="Pinterest-Sign-Up_HTML_Project.html"
+              >Not on Pinterest yet? Sign up</a
+            >
+          </p>
+
+          <!-- business text -->
+          <p class="light space">
+            Are you a business?
+            <a href="https://www.pinterest.com/business/create/" target="_blank"
+              >Get started here!</a
+            >
+          </p>
+        </div>
+        <!-- Container Div End -->
+      </div>
+      <!-- Main Div End -->
+    </div>
+    <!-- Background Image Div End -->
+  </body>
+</html>
