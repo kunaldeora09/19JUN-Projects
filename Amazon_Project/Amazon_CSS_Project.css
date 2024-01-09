@@ -19,7 +19,7 @@
 }
 
 .logo {
-    background-image: url(ImagePro07-CSS/image01-pro07CSS.png);
+    background-image: url(Image_Amazon_Project/01img_Amazon_Project.png);
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -196,7 +196,7 @@ span {
 }
 
 .hero-section {
-    background-image: url(ImagePro07-CSS/image10-pro07CSS.jpg);
+    background-image: url(Image_Amazon_Project/10img_Amazon_Project.jpg);
     background-size: cover;
     height: 300px;
     display: flex;
@@ -341,7 +341,7 @@ hr {
 }
 
 .foot-logo {
-    background-image: url(ImagePro07-CSS/image01-pro07CSS.png);
+    background-image: url(Image_Amazon_Project/01img_Amazon_Project.png);
     background-size: cover;
     height: 50px;
     margin-right: 50px;
@@ -419,7 +419,7 @@ hr {
     width: 100px;
 }
 
-.condition{
+.condition {
     background-color: #131A22;
     color: #dddddd;
     text-align: center;
@@ -428,20 +428,20 @@ hr {
     padding-bottom: 30px;
 }
 
-.condition a{
+.condition a {
     margin-left: 12px;
 }
 
-.condition a:hover{
+.condition a:hover {
     cursor: pointer;
     text-decoration: underline;
 }
 
-.condition p{
+.condition p {
     margin-top: 7px;
 }
 
-.condition img{
+.condition img {
     height: 17px;
     margin-left: 5px;
 }
