@@ -246,3 +246,4 @@ $(function () {
     $(".fill-2, .fill-1").css({ backgroundColor: "#848484" });
   });
 });
+  
